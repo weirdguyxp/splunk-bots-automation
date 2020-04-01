@@ -13,10 +13,10 @@ import sys
 requests.packages.urllib3.disable_warnings()
 
 #vars to be set before running
-splunk = "splunk.intranet.hanlonfamily.net"
+splunk = "splunk"
 splunkport = "8089"
 splunkrole="ess_analyst"
-splunkscoring = "splunkscoring.intranet.hanlonfamily.net"
+splunkscoring = "splunkscoring"
 splunkscoringport = "8089"
 splunkscoringrole="ctf_competitor"
 sslverify=False
